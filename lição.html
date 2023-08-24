@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input id="text" placeholder="bom dia">
+     <button onclick="butao()"> aperte </button>
+    <div id="div_numero">
+
+    </div>
+</body>
+</html>
+<script>
+    var numero = 0
+    function butao(){
+        div_numero.innerHTML = ``
+
+        div_numero.innerHTML += `${numero += 1} total de vezes que o usuario deu bom dia <br>`
+
+        if (numero > 10){
+            div_numero.innerHTML += `Deu mais de 10 bom dias<br>`
+        } if (numero > 20){
+            div_numero.innerHTML += `Pare imediatamente <img src="https://www.altoastral.com.br/media/uploads/legacy/2016/09/suicidio-lula-molusco.jpg" alt="">`
+        }
+    }
+</script>
