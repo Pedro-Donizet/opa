@@ -7,8 +7,8 @@
 </head>
 <body>
 
-    <input id="text" placeholder="bom dia">
-     <button onclick="butao()"> aperte </button>
+   <h1> Bom dia </h1>
+     <button onclick="butao()"> De 1 bom dia (acumulativo)</button>
     <div id="div_numero">
 
     </div>
@@ -21,10 +21,10 @@
 
         div_numero.innerHTML += `${numero += 1} total de vezes que o usuario deu bom dia <br>`
 
-        if (numero > 10){
-            div_numero.innerHTML += `Deu mais de 10 bom dias<br>`
-        } if (numero > 20){
-            div_numero.innerHTML += `Pare imediatamente <img src="https://www.altoastral.com.br/media/uploads/legacy/2016/09/suicidio-lula-molusco.jpg" alt="">`
+        if (numero > 5){
+            div_numero.innerHTML += `Deu mais de 5 bom dias<br> <br>`
+        } if (numero > 10){
+            div_numero.innerHTML += `Pare imediatamente <br> <img src="https://www.altoastral.com.br/media/uploads/legacy/2016/09/suicidio-lula-molusco.jpg" alt="" width="138px";>`
         }
     }
 </script>
