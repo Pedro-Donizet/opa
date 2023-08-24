@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ja'h ponde al mossar?</h1>
+     
+    insira o horario atual:
+    <button onclick="muito_cedo()"> 9:00 AM </button>
+    <button onclick="ja_pode()"> 1:00 PM </button>
+    <button onclick="muito_tarde()"> 8:00 PM </button>
+
+    <div id="div_aomosso"></div>
+
+    <img src="" alt="">
+
+</body>
+</html>
+<script>
+    function muito_cedo(){
+        div_aomosso.innerHTML = ``
+        div_aomosso.innerHTML = `Ta proibido aomossar ainda <br> <img src="https://th.bing.com/th/id/OIP.cQUIIQtMKrKMqyqsSPvubQHaHM?pid=ImgDet&rs=1" alt="">`
+    }
+    function ja_pode(){
+        div_aomosso.innerHTML = ``
+        div_aomosso.innerHTML = `Ta liberado o aomosso <br> <img src="https://th.bing.com/th/id/OIP.FhqU26TwQ2-wotz7MVsXUgHaED?pid=ImgDet&rs=1" alt="">`
+    }
+    function muito_tarde(){
+        div_aomosso.innerHTML =``
+        div_aomosso.innerHTML = `Ta muito tarde pra aomossar <br> <img src="https://3.bp.blogspot.com/-rgXWKXw_6VA/VQbXwDO1LvI/AAAAAAAAZHk/wHDqy7ln-TI/s1600/albert_einstein-.jpg" alt="">`
+    }
+</script>
